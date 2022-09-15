@@ -1,3 +1,3 @@
-sudo add-apt-repository ppa:darklin20/bomi
+sudo add-apt-repository ppa:nemonein/bomi
 sudo apt-get update
-sudo apt-get install bomi
+sudo apt-get install bomi -y

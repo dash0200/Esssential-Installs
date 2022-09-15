@@ -1,6 +1,6 @@
 sudo apt update
-sudo apt install curl
-sudo apt install php-cli unzip
+sudo apt install curl -y
+sudo apt install php-cli unzip -y
 
 cd ~
 curl -sS https://getcomposer.org/installer -o composer-setup.php
@@ -12,4 +12,4 @@ php -r "if (hash_file('SHA384', 'composer-setup.php') === '$HASH') { echo 'Insta
 
 sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 
-composer
+composer -V
